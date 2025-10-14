@@ -1,0 +1,42 @@
+body {
+    background-color: #53b1ff;
+
+    
+}
+
+body > img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.fase1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 630px;
+    left: 500px;
+}
+
+.fase2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 730px;
+    left: 910px;
+}
+
+.fase3 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 600px;
+    left: 700px;
+}
+
+.re {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 580px;
+    left: 470px;
+}
