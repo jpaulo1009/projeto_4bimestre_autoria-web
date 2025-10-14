@@ -1,0 +1,37 @@
+body {
+    background-image: url(../../img/ceu\ cadastro.jpg);
+    background-repeat: no-repeat;
+}
+
+body > h1 {
+    text-align: center;
+}
+
+.cad {
+    background-color: #53b1ff;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    padding-top: 2px;
+    font-family: monospace;
+}
+
+.cad > button {
+    margin-top: 50spx;
+}
+#b {
+    margin-left: 12px;
+}
+
+form > a {
+    color: black;
+    background-color: gold;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
