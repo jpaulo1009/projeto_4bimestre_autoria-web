@@ -1,7 +1,8 @@
 body {
-    background-color: #53b1ff;
-    background-image: url(../../img/ceu\ cadastro.jpg);
+    background-image: url(/img/ceu_cadastro.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 body > img {
@@ -10,37 +11,37 @@ body > img {
     margin-top: 30px;
 }
 .fase1 {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     position: relative;
-    bottom: 630px;
-    left: 500px;
+    bottom: 550px;
+    left: 535px;
 }
 
 .fase2 {
     height: 100px;
     width: 100px;
     position: relative;
-    bottom: 730px;
-    left: 910px;
+    bottom: 640px;
+    left: 865px;
 }
 
 .fase3 {
     height: 100px;
     width: 100px;
     position: relative;
-    bottom: 600px;
+    bottom: 545px;
     left: 700px;
 }
 
 .re {
-    height: 100px;
-    width: 100px;
+    width: 10px;
     position: relative;
-    bottom: 580px;
+    bottom: 550px;
     left: 470px;
 }
 h1 {
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
+    
 }
