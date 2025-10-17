@@ -1,7 +1,7 @@
 body {
     background-color: #53b1ff;
-
-    
+    background-image: url(../../img/ceu\ cadastro.jpg);
+    background-repeat: no-repeat;
 }
 
 body > img {
@@ -39,4 +39,8 @@ body > img {
     position: relative;
     bottom: 580px;
     left: 470px;
+}
+h1 {
+    text-align: center;
+    font-size: 75px;
 }
