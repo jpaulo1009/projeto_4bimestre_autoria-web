@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fases.css">
-    <title>Fase2</title>
+    <title>Fase 2</title>
 </head>
 <body>
     <div>
-        <h2>O que é CSS?</h2>
+        <h2>CSS: Estilo e Design da Página</h2>
         <p>CSS, que significa <i>Cascading Style Sheets</i> (Folhas de Estilo em Cascata), é uma linguagem usada para descrever a apresentação visual de documentos escritos em HTML ou XML. Enquanto o HTML estrutura o conteúdo de uma página web, o CSS é responsável por definir como esse conteúdo será exibido — como cores, fontes, espaçamentos, layouts e muito mais.</p>
-        <h3>Seletores comuns</h3>
-        <img src="/img/estrutura_basica.jpg" style="margin-left: auto; margin-right: auto; display: block;">
+        <h3>Sintaxe básica</h3>
+        <img src="/img/fase2/sintaxe_basica_css.png">
+        <h4>Exemplo prático</h4>
+        <img src="/img/fase2/exemplo_pratico_css.png">
+        <h3>Seletores simples</h3>
         <ul>
-            <li><strong>< !DOCTYPE html ></strong>: Declara que o documento é HTML5.</li>
-            <li><strong>< html ></strong>: Elemento raiz da página.</li>
-            <li><strong>< head ></strong>: Contém informações da página, como título, metadados, links para CSS e scripts.</li>
-            <li><strong>< title ></strong>: Título que aparece na aba do navegador.</li>
-            <li><strong>< body ></strong>: Conteúdo visível da página.</li>
+            <li>Por <strong>tag</strong>: p { }</li>
+            <li>Por <strong>classe</strong>: .classe { }.</li>
+            <li>Por <strong>id</strong>: #id { }</li>
         </ul>
-        <p>Algumas outras tags bastante conhecidas:</p>
-        <ul>
-            <li><strong>< h1 ></strong> e <strong>< h6></strong>: Cabeçalhos, do mais importante (h1) ao menos importante (h6).</li>
-            <li><strong>< p ></strong>: Parágrafo.</li>
-            <li><strong>< a href="URL" ></strong>: Link.</li>
-            <li><strong>< img src="imagem.jpg" alt="descrição" ></strong>: Imagem.</li>
-            <li><strong>< ul > e < ol ></strong>: Listas (não ordenada e ordenada).</li>
-            <li><strong>< li ></strong>: Item de lista.</li>
-            <li><strong>< div ></strong>: Container genérico para agrupar elementos.</li>
-        </ul>
-        </div>
-</body>
-</html>
+        <h2>Formas de aplicar CSS ao HTML</h2>
+        <p>O CSS pode ser aplicado de três maneiras principais, e o navegador as lê em ordem de prioridade (da maior para a menor): local (<i>inline</i>), incorporado (interno, <i>embedded</i>) e externo (<i>linked</i>)</p>
+        <ol>
+            <h3><li>CSS Local (<i>inline</i>)</li></h3>
+            <p>É aplicado diretamente dentro da tag HTML, usando o atributo style.</p>
+            <img src="/img/fase2/css_local.png">
+            <h3><li>CSS Incorporado (interno, <i>embedded</i>)</li></h3>
+            <p>É inserido dentro da tag < style > no cabeçalho < head > do documento HTML.</p>
+            <img src="/img/fase2/css_incorporado.png">
+            <h3><li>CSS Externo (<i>linked</i>)</li></h3>
+            <p>Método mais profissional e usado. É colocado em um arquivo separado (.css), e o HTML o importa com a tag < link > no < head >.</p>
+            <h4>Arquivo HTML</h4>
+            <img src="/img/fase2/css_externo_1.png">
+            <h4>Arquivo CSS</h4>
+            <img src="/img/fase2/css_externo_2.png">
+        </ol>
