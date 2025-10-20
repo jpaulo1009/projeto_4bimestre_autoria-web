@@ -15,7 +15,7 @@ body > img {
     width: 90px;
     position: relative;
     bottom: 550px;
-    left: 535px;
+    left: 700px;
 }
 
 .fase2 {
@@ -23,22 +23,22 @@ body > img {
     width: 100px;
     position: relative;
     bottom: 640px;
-    left: 865px;
+    left: 1030px;
 }
 
 .fase3 {
     height: 100px;
     width: 100px;
     position: relative;
-    bottom: 545px;
-    left: 700px;
+    bottom: 535px;
+    left: 870px;
 }
 
 .re {
     width: 10px;
     position: relative;
-    bottom: 550px;
-    left: 470px;
+    bottom: 530px;
+    left: 700px;
 }
 h1 {
     text-align: center;
