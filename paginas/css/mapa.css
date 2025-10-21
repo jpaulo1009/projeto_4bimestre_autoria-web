@@ -16,7 +16,6 @@ body > img {
     position: relative;
     bottom: 540px;
     left: 640px;
-    margin-bottom: ;
 }
 
 .fase2 {
@@ -53,4 +52,18 @@ h1 {
     position: relative;
     bottom: 750px;
     left: 1570px;
+}
+
+#fases {
+    margin-top: -65px;
+    margin-bottom: -65px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 120%;
+    background-color: darkorange;
+
 }
