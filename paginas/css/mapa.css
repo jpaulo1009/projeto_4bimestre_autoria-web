@@ -14,16 +14,17 @@ body > img {
     height: 90px;
     width: 90px;
     position: relative;
-    bottom: 550px;
-    left: 700px;
+    bottom: 540px;
+    left: 640px;
+    margin-bottom: ;
 }
 
 .fase2 {
     height: 100px;
     width: 100px;
     position: relative;
-    bottom: 640px;
-    left: 1030px;
+    bottom: 630px;
+    left: 970px;
 }
 
 .fase3 {
@@ -31,17 +32,25 @@ body > img {
     width: 100px;
     position: relative;
     bottom: 535px;
-    left: 870px;
+    left: 810px;
 }
 
 .re {
     width: 10px;
     position: relative;
-    bottom: 530px;
-    left: 700px;
+    bottom: 520px;
+    left: 680px;
+    margin-bottom: -500px;
 }
 h1 {
     text-align: center;
     font-size: 50px;
     
+}
+
+.c {
+    margin-bottom: -100px;
+    position: relative;
+    bottom: 750px;
+    left: 1570px;
 }
