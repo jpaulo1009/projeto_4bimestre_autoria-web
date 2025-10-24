@@ -15,7 +15,7 @@ body > img {
     width: 90px;
     position: relative;
     bottom: 540px;
-    left: 640px;
+    left: 810px;
 }
 
 .fase2 {
@@ -23,7 +23,7 @@ body > img {
     width: 100px;
     position: relative;
     bottom: 630px;
-    left: 970px;
+    left: 1150px;
 }
 
 .fase3 {
@@ -31,27 +31,20 @@ body > img {
     width: 100px;
     position: relative;
     bottom: 535px;
-    left: 810px;
+    left: 980px;
 }
 
 .re {
     width: 10px;
     position: relative;
     bottom: 520px;
-    left: 680px;
+    left: 850px;
     margin-bottom: -500px;
 }
 h1 {
     text-align: center;
     font-size: 50px;
     
-}
-
-.c {
-    margin-bottom: -100px;
-    position: relative;
-    bottom: 750px;
-    left: 1570px;
 }
 
 #fases {
@@ -63,7 +56,23 @@ h1 {
     display: flex;
     flex-direction: row;
     top: 0;
-    width: 120%;
+    width: 100%;
     background-color: darkorange;
+    border-radius: 25px;
+    align-items: center;
+    color: yellow;
+    display: flex ;
+    justify-content: space-between;
+
 
 }
+
+.menu > img {
+    margin-right: 50px;
+    margin-bottom: -25px;
+}
+
+#menu1 {
+    margin-top: -35px;
+}
+

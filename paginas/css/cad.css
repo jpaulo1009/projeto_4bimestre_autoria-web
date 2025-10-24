@@ -1,6 +1,7 @@
 body {
     background-image: url(../../img/ceu_cadastro.jpg);
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 body > h1 {
