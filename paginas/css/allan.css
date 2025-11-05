@@ -1,0 +1,116 @@
+body {
+    background-color: #1E293B;
+}
+
+.menucard {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 15%;
+    background-color: darkorange;
+    border-radius: 25px;
+    align-items: center;
+    margin: auto;
+}
+
+.fundo {
+    color: white;
+    background-color: #334155;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 320px;
+    height: 515px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fundo > h1 {
+    margin-bottom: 0px;
+}
+
+.missao {
+    color: #FACC9C;
+    background-color: #3b4c63;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.missao > h1 {
+    margin-top: -15px;
+}
+
+.usuario {
+    background-color: #475a75;
+    color: #F8FAFC;
+    display: flex;
+    width: 320px;
+    padding-top: 10px;
+}
+
+.usuario > img {
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.usuario > p {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    font-size: large;
+}
+
+.xp {
+    background-color: #475a75;
+    color: #F8FAFC;
+    width: 320px;
+    display: inline-flex;
+    
+}
+
+.xp > p {
+    margin-left: 15px;
+}
+
+.xp > img {
+    align-content: center;
+    margin-left: -73px;
+    margin-top: -35px;
+    margin-bottom: -50px;
+}
+
+.conquistas {
+    background-color: #475a75;
+    color: #F8FAFC;
+    
+}
+
+.conquistas > h1 {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.conquistas > img {
+    margin-right: -4px;
+}
+
+#larguramenor {
+    margin-left: -26px;
+}
+
+#setae {
+    margin-bottom: 100px;
+    bottom: 900px;
+    width: 200px;
+}
+
+#voltar {
+    display: block;
+    margin: auto;
+}
