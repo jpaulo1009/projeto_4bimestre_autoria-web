@@ -18,6 +18,11 @@ body > img {
     left: 810px;
 }
 
+.fase1:hover {
+    filter: brightness(110%);
+    transform: scale(1.1);
+}
+
 .fase2 {
     height: 100px;
     width: 100px;
@@ -26,12 +31,22 @@ body > img {
     left: 1150px;
 }
 
+.fase2:hover {
+    filter: brightness(110%);
+    transform: scale(1.1);
+}
+
 .fase3 {
     height: 100px;
     width: 100px;
     position: relative;
     bottom: 535px;
     left: 980px;
+}
+
+.fase3:hover {
+    filter: brightness(110%);
+    transform: scale(1.1);
 }
 
 .re {
@@ -64,10 +79,6 @@ h1 {
     justify-content: space-around;
 
 
-}
-
-.menu > img {
-    
 }
 
 #menu1 {
