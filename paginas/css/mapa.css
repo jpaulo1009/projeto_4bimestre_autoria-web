@@ -3,88 +3,98 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
 
-body > img {
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkorange;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* TÍTULO */
+#fases {
     display: block;
-    margin: auto;
-    margin-top: 30px;
-}
-.fase1 {
-    height: 90px;
-    width: 90px;
-    position: relative;
-    bottom: 540px;
-    left: 810px;
+    margin: 20px auto;
 }
 
-.fase1:hover {
+/* MAPA */
+#centro {
+    position: relative; /* FUNDAMENTAL */
+    width: 90%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+    background-image: url(../../img/mapa_3_fases.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* FASES */
+.fase {
+    position: absolute;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.fase img {
+    width: 70px;
+}
+
+.fase:hover {
+    transform: scale(1.15);
     filter: brightness(110%);
-    transform: scale(1.1);
+}
+
+/* POSIÇÃO DAS FASES (AJUSTE FINO AQUI) */
+.fase1 {
+    top: 55%;
+    left: 15%;
 }
 
 .fase2 {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    bottom: 630px;
-    left: 1150px;
-}
-
-.fase2:hover {
-    filter: brightness(110%);
-    transform: scale(1.1);
+    top: 45%;
+    left: 45%;
 }
 
 .fase3 {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    bottom: 535px;
-    left: 980px;
+    top: 60%;
+    left: 70%;
 }
 
-.fase3:hover {
-    filter: brightness(110%);
-    transform: scale(1.1);
+.recompensa {
+    top: 75%;
+    left: 40%;
 }
 
-.re {
-    width: 10px;
-    position: relative;
-    bottom: 520px;
-    left: 850px;
-    margin-bottom: -500px;
-}
-h1 {
-    text-align: center;
-    font-size: 50px;
-    
+.recompensa img {
+    width: 200px;
 }
 
-#fases {
-    margin-top: -65px;
-    margin-bottom: -65px;
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .fase img {
+        width: 50px;
+    }
+
+    .recompensa img {
+        width: 150px;
+    }
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    top: 0;
+@media (max-width: 480px) {
+    .menu img {
+        width: 120px;
+    }
+
+    #fases {
+        width: 250px;
+    }
+}
+html, body {
     width: 100%;
-    background-color: darkorange;
-    border-radius: 25px;
-    align-items: center;
-    color: yellow;
-    justify-content: space-around;
-
-
+    overflow-x: hidden;
 }
-
-#menu1 {
-    padding-top: -1000px;
-    padding-bottom: -1000px;
-    padding-left: -1000px;
-    padding-right: -1000px;
-}
-
