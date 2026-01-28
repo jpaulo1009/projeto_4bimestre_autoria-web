@@ -27,11 +27,18 @@ body {
     position: relative; /* FUNDAMENTAL */
     width: 90%;
     max-width: 1200px;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 11;
     margin: auto;
     background-image: url(../../img/mapa_3_fases.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.menu > img {
+    width: 200px;
+}
+.menu > a > img{
+    width: 200px;
 }
 
 /* FASES */
@@ -83,16 +90,132 @@ body {
     .recompensa img {
         width: 150px;
     }
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
     .menu img {
         width: 120px;
     }
 
     #fases {
-        width: 250px;
+        width: 150px;
     }
+    .fase1 {
+        top: 6%;
+        left: 22%;
+    }
+    .fase2 {
+        top: 6%;
+        left: 58%;
+    }
+    
+    .fase3 {
+        top: 38%;
+        left: 40%;
+    }
+
+    .recompensa {
+        top: 59%;
+        left: 29%;
+    }
+    
+    .recompensa img {
+        width: 135px;
+    }
+    .menu > img {
+        width: 100px;
+    }
+    .menu > a > img{
+        width: 100px;
+    }
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+@media (max-width: 320px) {
+    .menu img {
+        width: 120px;
+    }
+
+    #fases {
+        width: 150px;
+    }
+    .fase1 {
+        top: 4%;
+        left: 19%;
+    }
+    .fase2 {
+        top: 4%;
+        left: 56%;
+    }
+    
+    .fase3 {
+        top: 35%;
+        left: 38%;
+    }
+
+    .recompensa {
+        top: 58%;
+        left: 27%;
+    }
+    
+    .recompensa img {
+        width: 120px;
+    }
+    .menu > img {
+        width: 80px;
+    }
+    .menu > a > img{
+        width: 80px;
+    }
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .menu img {
+        width: 120px;
+    }
+
+    #fases {
+        width: 150px;
+    }
+    .fase1 {
+        top: 10%;
+        left: 24%;
+    }
+    .fase2 {
+        top: 10%;
+        left: 61%;
+    }
+    
+    .fase3 {
+        top: 42%;
+        left: 42%;
+    }
+
+    .recompensa {
+        top: 58%;
+        left: 27%;
+    }
+    
+    .recompensa img {
+        width: 170px;
+    }
+    .menu > img {
+        width: 170px;
+    }
+    .menu > a > img{
+        width: 170px;
+    }
+    
 }
 html, body {
     width: 100%;
