@@ -5,10 +5,7 @@ body {
 .menucard {
     display: flex;
     flex-direction: row;
-    top: 0;
-    width: 21%;
-    background-color: darkorange;
-    border-radius: 25px;
+    justify-content: center;
     align-items: center;
     margin: auto;
 }
@@ -114,3 +111,4 @@ body {
     display: block;
     margin: auto;
 }
+

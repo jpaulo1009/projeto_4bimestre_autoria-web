@@ -4,16 +4,24 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-div {
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkorange;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.conteudo {
     background-color: #F8F8F7;
     width: 1000px;
+    display: block;
     margin: auto;
     margin-top: 75px;
     margin-bottom: 75px;
-    padding-left: 15px;
-    padding-bottom: 15px;
     border-radius: 20px;
-    padding-top: 2px;
 }
 h2 {
     text-align: center;
@@ -41,4 +49,85 @@ ul {
     margin-bottom: -45px;
     display: block;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu img {
+        max-height: 45px;
+    }
+
+    .conteudo {
+        padding: 0 15px;
+        width: 400px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.05rem;
+    }
+
+    p, li {
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+
+    ul, ol {
+        margin: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .v {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+        width: 300px;
+    }
+    .menu img {
+        max-height: 35px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 0.95rem;
+    }
+
+    p, li {
+        font-size: 0.9rem;
+    }
+
+    .v {
+        width: 100px;
+    }
 }
