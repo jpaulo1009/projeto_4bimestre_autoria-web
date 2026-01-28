@@ -98,8 +98,63 @@ body {
         width: 120px;
     }
 
-    #fases {
-        width: 150px;
+    .fases {
+        width: 300px;
+        margin-left: 45px;
+    }
+    .fase1 {
+        top: 8%;
+        left: 22%;
+    }
+    .fase2 {
+        top: 8%;
+        left: 58%;
+    }
+    
+    .fase3 {
+        top: 40%;
+        left: 40%;
+    }
+
+    .recompensa {
+        top: 62%;
+        left: 29%;
+    }
+    
+    .recompensa img {
+        width: 125px;
+    }
+    .menu > img {
+        width: 100px;
+    }
+    .menu > a > img{
+        width: 100px;
+    }
+    #centro > .fase1 > img {
+        width: 40px;
+    }
+    #centro > .fase2 > img {
+        width: 40px;
+    }
+    #centro > .fase3 > img {
+        width: 40px;
+    }
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+@media (max-width: 320px) {
+    .menu img {
+        width: 120px;
+    }
+
+    .fases {
+        width: 250px;
+        margin-left: 30px;
     }
     .fase1 {
         top: 6%;
@@ -116,50 +171,6 @@ body {
     }
 
     .recompensa {
-        top: 59%;
-        left: 29%;
-    }
-    
-    .recompensa img {
-        width: 135px;
-    }
-    .menu > img {
-        width: 100px;
-    }
-    .menu > a > img{
-        width: 100px;
-    }
-}
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-
-
-@media (max-width: 320px) {
-    .menu img {
-        width: 120px;
-    }
-
-    #fases {
-        width: 150px;
-    }
-    .fase1 {
-        top: 4%;
-        left: 19%;
-    }
-    .fase2 {
-        top: 4%;
-        left: 56%;
-    }
-    
-    .fase3 {
-        top: 35%;
-        left: 38%;
-    }
-
-    .recompensa {
         top: 58%;
         left: 27%;
     }
@@ -173,51 +184,18 @@ html, body {
     .menu > a > img{
         width: 80px;
     }
+    #centro > .fase1 > img {
+        width: 35px;
+    }
+    #centro > .fase2 > img {
+        width: 35px;
+    }
+    #centro > .fase3 > img {
+        width: 35px;
+    }
 }
 html, body {
     width: 100%;
     overflow-x: hidden;
 }
 
-@media (max-width: 768px) {
-    .menu img {
-        width: 120px;
-    }
-
-    #fases {
-        width: 150px;
-    }
-    .fase1 {
-        top: 10%;
-        left: 24%;
-    }
-    .fase2 {
-        top: 10%;
-        left: 61%;
-    }
-    
-    .fase3 {
-        top: 42%;
-        left: 42%;
-    }
-
-    .recompensa {
-        top: 58%;
-        left: 27%;
-    }
-    
-    .recompensa img {
-        width: 170px;
-    }
-    .menu > img {
-        width: 170px;
-    }
-    .menu > a > img{
-        width: 170px;
-    }
-    
-}
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
