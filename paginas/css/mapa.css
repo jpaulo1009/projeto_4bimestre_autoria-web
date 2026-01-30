@@ -17,7 +17,7 @@ body {
 }
 
 /* TÍTULO */
-#fases {
+.fases {
     display: block;
     margin: 20px auto;
 }
@@ -58,29 +58,52 @@ body {
 
 /* POSIÇÃO DAS FASES (AJUSTE FINO AQUI) */
 .fase1 {
-    top: 12%;
-    left: 25%;
+    top: 10%;
+    left: 23%;
 }
 
 .fase2 {
-    top: 12%;
-    left: 62%;
+    top: 10%;
+    left: 60%;
 }
 
 .fase3 {
-    top: 44%;
-    left: 43%;
+    top: 42%;
+    left: 42%;
 }
 
 .recompensa {
-    top: 63%;
-    left: 32%;
+    top: 58%;
+    left: 28%;
 }
 
 .recompensa img {
-    width: 400px;
+    width: 500px;
+}
+#centro > .fase1 > img {
+    width: 100px;
+}
+#centro > .fase2 > img {
+    width: 100px;
+}
+#centro > .fase3 > img {
+    width: 100px;
 }
 
+.rodape {
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    color: azure;
+    position: static;
+    bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 /* RESPONSIVO */
 @media (max-width: 768px) {
     .fases {
@@ -169,10 +192,6 @@ body {
         width: 40px;
     }
 }
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
 
 
 
@@ -182,8 +201,7 @@ html, body {
     }
 
     .fases {
-        width: 250px;
-        margin-left: 30px;
+        width: 150px;
     }
     .fase1 {
         top: 6%;
@@ -222,9 +240,33 @@ html, body {
     #centro > .fase3 > img {
         width: 35px;
     }
+    .rodape {
+        position: fixed;
+    }
 }
 html, body {
     width: 100%;
     overflow-x: hidden;
 }
 
+@media (width: 1024px) {
+    .recompensa {
+        top: 60%;
+        left: 28%;
+    }
+    .fases {
+        width: 300px;
+    }
+    #centro > .fase1 > img {
+        width: 80px;
+    }
+    #centro > .fase2 > img {
+        width: 80px;
+    }
+    #centro > .fase3 > img {
+        width: 80px;
+    }
+    .recompensa img {
+        width: 350px;
+    }
+}
