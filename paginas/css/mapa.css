@@ -83,12 +83,40 @@ body {
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
-    .fase img {
-        width: 50px;
+    .fases {
+        width: 400px;
+        display: block;
+        margin: auto;
     }
 
     .recompensa img {
-        width: 150px;
+        width: 220px;
+    }
+    .fase1 {
+        top: 10%;
+        left: 23%;
+    }
+    .fase2 {
+        top: 10%;
+        left: 60%;
+    }
+    
+    .fase3 {
+        top: 42%;
+        left: 42%;
+    }
+    #centro > .fase1 > img {
+        width: 60px;
+    }
+    #centro > .fase2 > img {
+        width: 60px;
+    }
+    #centro > .fase3 > img {
+        width: 60px;
+    }
+    .recompensa {
+        top: 63%;
+        left: 31%;
     }
 
 }
@@ -100,7 +128,8 @@ body {
 
     .fases {
         width: 300px;
-        margin-left: 45px;
+        display: block;
+        margin: auto;
     }
     .fase1 {
         top: 8%;
